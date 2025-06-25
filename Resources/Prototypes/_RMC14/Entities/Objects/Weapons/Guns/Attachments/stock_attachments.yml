@@ -842,6 +842,21 @@
 
 - type: entity
   parent: RMCStockAttachmentBase
+  id: RMCAttachmentM3717Stock
+  name: M3717 stock
+  description: The non-detachable stock of a M37-17 pump shotgun.
+  components:
+  - type: Sprite
+    state: M3717Stock
+  - type: AttachableVisuals
+    suffix: ""
+  - type: Tag
+    tags:
+    - RMCAttachmentStock
+    - RMCAttachmentM3717Stock
+
+- type: entity
+  parent: RMCStockAttachmentBase
   id: RMCAttachmentHuntingStock
   name: Basira-Armstrong stock
   description: The non-detachable stock of a Basira-Armstrong hunting rifle
