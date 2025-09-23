@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Taken from RMC14, from the contributer TeaTotalTemplar, https://github.com/RMC-14/RMC-14/tree/8d4b3305fe16e61f5a691c651b7ca9d50eb6fd7e/Resources/Textures/_RMC14/Objects/Weapons/Guns/Ammunition/Magazines/m16.rsi. Taken by RavenCaat",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "base"
+    },
+    {
+      "name": "mag-1"
+    }
+  ]
+}

@@ -622,6 +622,22 @@
     - RMCAttachmentM16Stock
 
 - type: entity
+  parent: RMCAttachableBase
+  id: RMCAttachmentM16A5stock
+  name: M16A5stock
+  description: M16A5 Stock.
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Weapons/Guns/Attachments/stock.rsi
+    state: M16A5stock
+  - type: AttachableVisuals
+    suffix: ""
+  - type: Tag
+    tags:
+    - RMCAttachmentStock
+    - RMCAttachmentM16A5stock
+
+- type: entity
   parent: RMCStockAttachmentBase
   id: RMCAttachmentM16StockCollapsible
   name: collapsible M16 stock
